@@ -2,7 +2,7 @@
 
 require('./include/common');
 const JsSIP = require('../');
-const LoopSocket = require('./include/LoopSocket');
+const LoopSocket = require('./include/loopSocket');
 
 module.exports = {
   'subscriber/notifier communication' : function(test)
