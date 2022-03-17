@@ -1,5 +1,5 @@
 {
-  "name": "jssip",
+  "name": "@wui/jssip",
   "title": "JsSIP",
   "description": "the Javascript SIP library",
   "version": "3.8.0",
@@ -8,6 +8,9 @@
     "José Luis Millán <jmillan@aliax.net> (https://github.com/jmillan)",
     "Iñaki Baz Castillo <ibc@aliax.net> (https://inakibaz.me)"
   ],
+  "publishConfig": {
+    "@wui:registry": "https://gitlab.satel.org/api/v4/projects/1126/packages/npm/"
+  },
   "types": "lib/JsSIP.d.ts",
   "main": "lib-es5/JsSIP.js",
   "keywords": [
